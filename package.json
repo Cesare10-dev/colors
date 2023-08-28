@@ -10,8 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "chroma-js": "^2.4.2",
     "react": "^18.2.0",
+    "react-color": "^2.19.3",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-router-dom": "^6.15.0",
+    "react-slugify": "^3.0.2",
     "styled-components": "^6.0.7"
   },
   "devDependencies": {
