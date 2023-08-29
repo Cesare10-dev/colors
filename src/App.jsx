@@ -19,7 +19,7 @@ function App() {
 
 const AppStyled = styled.div`
   min-height: 100vh;
-  background-color: slateblue;
+  background-color: #3373f2;
   position: relative;
   .grid {
     position: absolute;

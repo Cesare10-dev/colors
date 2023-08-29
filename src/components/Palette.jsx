@@ -204,7 +204,7 @@ const PaletteStyled = styled.div`
     padding: 0.5rem 1rem;
     border-radius: 7px;
     color: white;
-    background: #a855f7;
+    background: #3373f2;
     transition: all 0.3s ease-in-out;
     &:hover {
       background: #0d0b33;

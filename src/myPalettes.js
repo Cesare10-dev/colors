@@ -2,7 +2,7 @@ import slugify from "react-slugify";
 
 export const palette = [
   {
-    name: slugify("signature combo"),
+    name: slugify("palette n1"),
     createdAt: 1,
     colors: [
       "#69d2e7",
@@ -28,7 +28,7 @@ export const palette = [
     ],
   },
   {
-    name: slugify("signature combo 2"),
+    name: slugify("palette n2"),
     createdAt: 2,
     colors: [
       "#774f38",
@@ -54,7 +54,7 @@ export const palette = [
     ],
   },
   {
-    name: slugify("signature combo 3"),
+    name: slugify("palette n3"),
     createdAt: 3,
     colors: [
       "#00a0b0",
@@ -80,7 +80,7 @@ export const palette = [
     ],
   },
   {
-    name: slugify("bloom palette"),
+    name: slugify("palette n4"),
     createdAt: 4,
     colors: [
       "#490a3d",
@@ -106,7 +106,7 @@ export const palette = [
     ],
   },
   {
-    name: slugify("Signature Combo 4"),
+    name: slugify("palette n5"),
     createdAt: 5,
     colors: [
       "#774f38",

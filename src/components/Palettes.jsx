@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import slugify from "react-slugify";
 import styled from "styled-components";
 import { palette } from "../myPalettes";
+import { AiOutlinePlus } from "react-icons/ai";
 
 function Palettes() {
   const [myPalettes, setMyPalettes] = useState(palette);
@@ -101,11 +102,12 @@ function Palettes() {
             type="text"
           />
           <button
+            disabled={!paletteName}
             onClick={() => {
               addPalette();
             }}
           >
-            +
+            <AiOutlinePlus />
           </button>
         </div>
       </div>
@@ -196,14 +198,14 @@ const PalettesStyled = styled.div`
         font-size: 2rem;
         height: 100%;
         border-radius: 7px;
-        background-color: #7263f3;
+        background-color: #63f387;
         color: white;
         transition: all 0.3s ease;
         display: flex;
         align-items: center;
         justify-content: center;
         &:hover {
-          background-color: #5a4ed1;
+          background-color: #21c94b;
         }
       }
     }
